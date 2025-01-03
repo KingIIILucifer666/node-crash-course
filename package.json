@@ -1,0 +1,16 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "Lucifer-zero-to-hero",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "nodemon --env-file=.env server2.js"
+  },
+  "author": "KingIIILucifer",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
